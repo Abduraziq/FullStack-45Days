@@ -1,8 +1,12 @@
-# 🚀 Full-Stack 45 Days Challenge  
+<div align="left">
+
+# 🚀 Full-Stack 45 Days Challenge
 
 Welcome to my **45-Day Full-Stack Development Challenge!** 🎯  
+For the next **45 days**, I’ll be building and sharing frontend and backend projects every day.  
+The goal is to sharpen my skills, explore new technologies, and build a solid portfolio of full-stack applications.  
 
-For the next **45 days**, I’ll be building and sharing frontend and backend projects every day. The goal is to sharpen my skills, explore new technologies, and build a solid portfolio of full-stack applications.  
+</div>
 
 ## 📅 Challenge Schedule  
 

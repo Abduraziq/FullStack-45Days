@@ -1,6 +1,6 @@
 /* Apply a beautiful background */
 body {
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #042eec, #764ba2);
     font-family: 'Poppins', sans-serif;
     display: flex;
     align-items: center;
@@ -10,11 +10,21 @@ body {
     text-align: center;
 }
 
+/* Main container to stack elements vertically */
+.main-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
 /* Fade-in animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(-20px);
     }
     to {
         opacity: 1;
@@ -22,12 +32,16 @@ body {
     }
 }
 
-/* Main container */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+/* Animated Box */
+.animated-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 20px; /* Space between text and card */
+    animation: fadeIn 1s ease-in-out;
 }
 
 /* Glassmorphism Card */
@@ -55,8 +69,9 @@ body {
 
 /* Headings */
 h2 {
-    color: white;
+    color: blue;
     margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Description */
@@ -68,12 +83,12 @@ p {
 
 /* Button Styling */
 .btn {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(5, 50, 196, 0.2);
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
-    color: white;
+    color: rgb(19, 185, 130);
     font-size: 16px;
     transition: 0.3s ease;
 }
@@ -81,14 +96,4 @@ p {
 .btn:hover {
     background: rgba(255, 255, 255, 0.4);
     transform: scale(1.1);
-}
-
-/* Animated Box */
-.animated-box {
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    animation: fadeIn 1s ease-in-out;
 }

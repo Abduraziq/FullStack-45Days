@@ -1,4 +1,6 @@
 /* General Styles */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -48,6 +50,19 @@
     background: #ecf0f1;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Takes full viewport height */
+    text-align: center;
+    
+    color: rgb(3, 3, 3);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -76,6 +91,13 @@ header {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    background: #5399df;
 }
 
 /* Responsive */
